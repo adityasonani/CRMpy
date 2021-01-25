@@ -11,7 +11,7 @@ root.geometry("400x600")
 mydb = mysql.connector.connect(
 		host = "localhost",
 		user = "Aditya",
-		password = "Aditya@123",
+		password = "", // password removed
 		database = "adityadb"
 		)
 
